@@ -1,0 +1,56 @@
+"http://finearts.hku.hk/faculty/prof-david-j-clarke/"
+David J. CLARKE
+"http://finearts.hku.hk/faculty/dr-roslyn-l-hammers/"
+Roslyn L. HAMMERS
+"http://finearts.hku.hk/faculty/dr-yeewan-koon/"
+Yeewan KOON
+"http://finearts.hku.hk/faculty/dr-opher-mansour/"
+Opher MANSOUR
+"http://finearts.hku.hk/faculty/kathryn-b-moore/"
+Kathryn B. MOORE
+"http://finearts.hku.hk/faculty/prof-greg-m-thomas/"
+Greg M. THOMAS
+"http://finearts.hku.hk/faculty/kathleen-wyma/"
+Kathleen WYMA
+"http://finearts.hku.hk/faculty/dr-y-hwang/"
+Yin HWANG
+"http://finearts.hku.hk/faculty/dr-florian-knothe/"
+Florian KNOTHE
+"http://finearts.hku.hk/faculty/elaine-kwok-yin-ning/"
+Elaine Yin Ning KWOK
+"http://finearts.hku.hk/faculty/dr-mei-lin-lai/"
+Eliza Mei Lin LAI
+"N/A"
+Catherine MAUDSLEY
+"http://finearts.hku.hk/faculty/dr-sarah-sau-wah-ng/"
+Sarah Sau Wah NG
+"http://finearts.hku.hk/faculty/ms-tina-yee-wan-pang/"
+Tina Yee Wan PANG
+"http://finearts.hku.hk/faculty/dr-a-weisberg-roberts/"
+Alicia WEISBERG-ROBERTS
+"http://finearts.hku.hk/faculty/ms-anita-yin-fong-wong/"
+Anita Yin Fong WONG
+"N/A"
+Ju Hsi CHOU
+"http://finearts.hku.hk/faculty/dr-carolyn-d-muir/"
+Carolyn D. MUIR
+"N/A"
+Richard STANLEY-BAKER
+"N/A"
+Qingli WAN
+"N/A"
+Grace Yee Shuen CHENG
+"http://finearts.hku.hk/faculty/mr-chun-tong-yeung/"
+Chun Tong YEUNG
+"N/A"
+Nicole Nok Kan FUNG
+"N/A"
+Candy Ge Yau LEUNG
+"N/A"
+Ruby Pui Yi LEUNG
+"N/A"
+Alice Sau Mui WONG
+"N/A"
+Janet Yuet Heng WONG
+"N/A"
+Heidi Cary WU

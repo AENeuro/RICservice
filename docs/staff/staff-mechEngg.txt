@@ -1,0 +1,59 @@
+link: add "http://me.hku.hk/"
+/index.php?cid=1&tpl=people_info&id=3
+Chan B.P.
+/index.php?cid=1&tpl=people_info&id=4
+Chan C.K.
+/index.php?cid=1&tpl=people_info&id=5
+Chan P.K.L.
+/index.php?cid=1&tpl=people_info&id=6
+Chen M.Z.Q.
+/index.php?cid=1&tpl=people_info&id=72
+Chen Y.
+/index.php?cid=1&tpl=people_info&id=7
+Chen Y.H.
+/index.php?cid=1&tpl=people_info&id=8
+Cheung K.C.
+/index.php?cid=1&tpl=people_info&id=9
+Chow K.W.
+/index.php?cid=1&tpl=people_info&id=10
+Feng S.P.
+/index.php?cid=1&tpl=people_info&id=11
+Ho B.P.L.
+/index.php?cid=1&tpl=people_info&id=12
+Huang L.
+/index.php?cid=1&tpl=people_info&id=13
+Huang M.X.
+/index.php?cid=1&tpl=people_info&id=14
+Hui S.C.M.
+/index.php?cid=1&tpl=people_info&id=71
+Kwok K.W.
+/index.php?cid=1&tpl=people_info&id=15
+Lam J.
+/index.php?cid=1&tpl=people_info&id=16
+Leung D.Y.C.
+/index.php?cid=1&tpl=people_info&id=17
+Li W. D.
+/index.php?cid=1&tpl=people_info&id=18
+Li Y.
+/index.php?cid=1&tpl=people_info&id=19
+Lin Y.
+/index.php?cid=1&tpl=people_info&id=20
+Liu C.H.
+/index.php?cid=1&tpl=people_info&id=21
+Liu F.
+/index.php?cid=1&tpl=people_info&id=22
+Ng C.O.
+/index.php?cid=1&tpl=people_info&id=23
+Ngan A.H.W.
+/index.php?cid=1&tpl=people_info&id=24
+Shum A.
+/index.php?cid=1&tpl=people_info&id=25
+Sze K.Y.
+/index.php?cid=1&tpl=people_info&id=26
+Tan S.T.
+/index.php?cid=1&tpl=people_info&id=27
+Wang L.Q.
+/index.php?cid=1&tpl=people_info&id=28
+Wang M.
+/index.php?cid=1&tpl=people_info&id=70
+Wang Z.

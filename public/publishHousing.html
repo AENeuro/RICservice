@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+        <head>
+                <title>RIC杂货铺</title>
+                <link rel = "shortcut icon" type = "image/ico" href = "assets/img/RIC.png"/>
+                <meta name = "viewport" content = "width = device-width, initial-scale=1"/>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <link rel = "stylesheet" href = "assets/css/body.css">
+                <script src="./assets/dist/js/jquery-2.1.3.min.js"></script>
+        </head>
+        <body>
+                <nav class = "navbar navbar-default navbar-fixed-top" style = "opacity: 0.9" id = "navTop">
+                </nav>
+                <div class="modal fade" id="myModalSign"   tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                </div>
+                <script>
+                        var width = screen.width;
+                        if (width > 800)
+                                document.write("<div class = 'band-pc'>");
+                        else
+                                document.write("<div class = 'band'>");
+                </script>
+                        <div class = "container-fluid">
+                            <h1 style = "margin-top: 80px; color: #ffffff; text-align: center">发布新的租房信息</h1>
+                            <div class="panel panel-default" id = "divPost" style = "margin-top: 40px">
+	<!--<div class="panel-heading">
+	        <h3 class="panel-title">发布租房信息</h3> //修改：删掉这个小标题，避免重复
+	</div>-->
+	<div class="panel-body">
+	        <div class = "form-group">
+	                <label><h5>一句话个性标题(最佳效果15字以内)</h5></label>
+	                <input id = "inputDescription" type="text" class = "form-control" placeholder="这将被展示在信息列表首页，把握机会~"/>
+	        </div>
+	        <div class = "form-group">
+	                <label><h5>请输入房子所在区域</h5></label>
+	                <input id = "inputPlace" class="form-control" type = "text" placeholder="例：坚尼地城；西营盘"/>
+	        </div>
+	        <div class = "row">
+	                <label id = "labelPlaceError" for="text" class="col-md-8 control-label" style = "color: red; display: none">请输入地点信息</label>
+	        </div>
+	        <div class = "form-group">
+	                <label><h5>请输入小区/楼房名称</h5></label>
+	                <input id = "inputNameBuilding" class="form-control" type = "text" placeholder="例：宝翠园；联邦新楼"/>
+	        </div>
+	        <div class = "row">
+	                <label id = "labelNameBuildingError" for="text" class="col-md-8 control-label" style = "color: red; display: none">请输入小区/楼房名称</label>
+	        </div>
+	        <div class = "form-group">
+	                <label><h5>请输入每月租金（单位：港币）</h5></label>
+	                <input id = "inputPrice" class="form-control" type = "text" placeholder=""/>   
+	        </div>
+	        <div class = "row">
+	                <label id = "labelPriceError" for="text" class="col-md-8 control-label" style = "color: red; display: none">请输入每月租金</label>
+	        </div>
+	        <div class = "form-group">
+	                <label><h5>房间类型</h5></label>
+	                <select id = "inputRoomType" class="form-control">
+	                        <option value = "none">请选择房间类型</option>
+	                        <option value = "单人间">单人间</option>
+	                        <option value = "双人间">双人间</option>
+	                        <option value = "多人">多人</option>
+	                        <option value = "待定">房间分配待定</option>
+	                        <option value = "其他">其他(请在“详细描述”中注明)</option>
+	                </select>
+	        </div>
+	        <!-- <div class = "form-group">
+	                <label><h5>房间类型</h5></label>
+	                <input id = "inputRoomType" class="form-control" type = "text" placeholder="例：单人间/双人间"/>
+	        </div> -->
+	        <div class = "row">
+	                <label id = "labelRoomTypeError" for="text" class="col-md-8 control-label" style = "color: red; display: none">请输入房间类型</label>
+	        </div>
+	        <div class = "form-group">
+	                <label><h5>请输入预期的租房起止时间</h5></label>
+	                <div class = "form-inline">
+	                        <div class = "form-group">
+	                                <label for = "dateSelectStart"><h5>起</h5></label>
+	                                <input id = "inputTimeMoveIn" type="text" class= "form-control" readonly = "readonly"/> 
+	                        </div>
+	                        <div class = "form-group">
+	                                <label for = "dateSelectEnd"><h5>止</h5></label>
+	                                <input id = "inputTimeMoveOut" type="text" class="form-control" readonly = "readonly"/>
+	                        </div>
+	                </div>	
+	                <div class = "row">
+	                        <label id = "labelTimeMoveInError" for="text" class="col-md-6 control-label" style = "color: red; display: none">请提供租房开始日期</label>
+	                        <label id = "labelTimeMoveOutError" for="text" class="col-md-6 control-label" style = "color: red; display: none">请提供租房结束日期</label> 
+	                </div>
+	        </div>
+	        <div class = "row">
+	                <label id = "labelTimeError" for="text" class="form""col-md-8 control-label" style = "color: red; display: none">结束日期应晚于开始日期</label>
+	        </div>
+	        <div class = "form-group">
+	                <label><h5>期望未来舍友性别</h5></label>
+	                <select id = "selectGender" class="form-control">
+	                        <option value = "不限性别">不限性别</option>
+	                        <option value = "限男生">限男生</option>
+	                        <option value = "限女生">限女生</option>
+	                </select>
+	        </div>
+	        <div class = "row">
+	                <label id = "labelGenderError" for="text" class="col-md-8 control-label" style = "color: red; display: none">请选择室友性别</label>
+	        </div>
+	        <div class = "form-group">
+	                <label><h5>详细描述</h5></label>
+	                <textarea id = "textareaResidentInfo" class="form-control" rows="3" placeholder = "给你未来的室友多提供一点儿信息吧！如房间面积和楼层，目前室友，家具设施，周边的交通和生活设施，与房东关系，合约形式，交租时间等。"></textarea>
+	        </div>
+	        <div class = "form-group">
+	                <label><h5>上传照片</h5></label>
+	                <input id = "inputPic" type="file" id="uploadImage" accept = "image/*" multiple>
+	                <p class="help-block">为你的房子上传几张照片吧（最多20张），可以吸引更多小伙伴哦！</p>
+	        </div>
+	        <div class = "row">
+	                <label id = "labelPictureError" for="text" class="col-md-8 control-label" style = "color: red; display: none">请上传图片</label>
+	        </div>
+	        <div class = "form-group" id = "divShowPic">
+	        </div>
+	        <div class = "form-group" ><input type="checkbox" id="inputAgreeSharing" checked = "checked" value="agreed">我同意RIC在微信公众号中分享这条租房信息</input></div>
+	        <div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h5 class="panel-title">请注意，您的买家将获得以下信息：</h5>
+				  </div>
+				  <div class="panel-body">
+				    <div class="form-group">
+		       			<!--<label for = "inputEmail3" class = "col-sm-2 control-label" style="font-size:17px; color:#A4A4A4"><h5>注册邮箱(不可修改):</h5></label>-->
+		       			<label for = "inputEmail3"><h5>注册邮箱: </h5></label>
+		        		<!--<div class="col-sm-10" id = "displayHKUEmail">--><label id = "h5Email"><h5></h5></label>
+		        	</div>
+		        	<div class="form-group">
+		       			<label for = "inputEmail3"><h5>其他联系方式: </h5></label>
+		        		<!--<div class="col-sm-10" id = "displayContact">--><label id = "h5Contact"><h5></h5></label>
+		        		<!--<button type = "button" class="btn btn-primary" id = "btnSubmitChange">修改</button>-->
+		        	</div>
+		        	<div class="form-group">
+		       			<label><h5>（联系信息可以在个人中心中修改）</h5></label>
+		        	</div>
+				  </div>
+			</div>
+	        <div class = "form-group">
+	                <button id = "btnPublishHousing" type = "button" class = "btn btn-primary" >我要发布！</button>
+	        </div>
+	</div>
+                			</div>
+                		</div>
+                </div>
+        </body>
+                <script style = "text/javascript" src = "./assets/js/modal.js"></script>
+                <!-- timePicker -->
+                <link rel="stylesheet" type="text/css" href="./assets/css/timePicker/jquery.timepicker.css" />
+                <link rel="stylesheet" type="text/css" href="./assets/css/timePicker/bootstrap-datepicker.css" />
+                <script type="text/javascript" src="./assets/js/timePicker/jquery.timepicker.js"></script>
+                <script type="text/javascript" src="./assets/js/timePicker/bootstrap-datepicker.js"></script>
+                <!-- timePicker -->
+                <script style = "text/javascript" src = "./assets/js/publishHousing.js?v=4"></script>
+                <script style = "text/javascript" src = "./assets/js/betaComment.js"></script>
+</html>
+

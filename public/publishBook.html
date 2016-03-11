@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+        <head>
+                <title>RIC杂货铺</title>
+                <link rel = "shortcut icon" type = "image/ico" href = "assets/img/RIC.jpg"/>
+                <meta name = "viewport" content = "width = device-width, initial-scale=1"/>
+                <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+                <script src="./assets/dist/js/jquery-2.1.3.min.js"></script>
+                <link rel = "stylesheet" href = "assets/css/index.css">
+                <link rel = "stylesheet" href = "assets/css/body.css">
+                <script style = "text/javascript" src = "./assets/js/modal.js"></script>
+                <script style = "text/javascript" src = "./assets/js/publishBook.js"></script>
+                <script style = "text/javascript" src = "./assets/js/betaComment.js"></script>
+        </head>
+        <body>
+                <nav class = "navbar navbar-default navbar-fixed-top" style = "opacity: 0.7" role = "navigation" id = "navTop">
+                </nav>
+                <div class="modal fade" id="myModalSign"   tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                </div>
+
+                <div class = "band">
+                        <div class = "container-fluid" style = "background-attachment: fixed">
+                                <h1 style = "margin-top: 70px; color: #ffffff; text-align: center">发布新的二手书交易</h1>
+                                <div class = "panel panel-default" >
+<div class = "row">
+	<div class = "col-md-3">
+	</div>
+	<div class = "col-md-9">
+				<div class = "form-group">
+					<h6></h6>
+				</div>
+						<div class = "form-group" >
+								<div class="media">
+										<div class="media-left">
+												<img width = "200px" height = "300px" id = "imgCover"/>
+												<div class="form-group">
+					<h4>书籍封面</h4>
+					<input type="file" id="uploadCover" accept = "image/*">
+					<p class="help-block">随手为书籍上传封面，有助于尽快卖个好价钱。</p> <!--这里可以限制上传文件类型嘛……-->
+												</div>
+										</div>
+										<div class="media-body">
+					<div class="form-group">
+							<h5 for="inputEmail3">书名</h5>
+							<input type="text" class="form-control cl-md-10" id="inputBookTitle" placeholder="请输入书籍名称">
+							<label class = "help-block"   id = "labelBookTitleError" style = "font-color: white"></label>
+					</div>
+					<div class="form-group">
+							<h5 for="inputCourseCode">书籍所属课程</h5>
+							<input type="text" class="form-control" id="inputCourseCode" placeholder="请输入使用该书籍的课程编号(如:CAES1000)"/>
+							<label class = "help-block"   id = "labelCourseCodeError" style = "font-color: white"></label>
+					</div>
+					<div class="form-group">
+							<h5 for="selectFaculty">课程分类</h5>
+							<select class="form-control" id = "selectFaculty">
+									<option value = "none">Faculty</option>
+									<option value = "architecture">Architecture</option>
+									<option value = "arts">Arts</option>
+									<option value = "be">Business and Economics</option>
+									<option value = "engineering">Engineering</option>
+									<option value = "law">Law</option>
+									<option value = "medicine">Medicine</option>
+									<option value = "science">Science</option>
+									<option value = "ss">Social Science</option>
+									<option value = "GRE">GRE</option>
+									<option value = "GMAT">GMAT</option>
+									<option value = "TOEFL">TOEFL</option>
+									<option value = "IELTS">IELTS</option>
+									<option value = "others">Others</option>
+							</select>
+							<label class = "help-block"   id = "labelFacultyError" style = "font-color: white"></label>
+					</div>
+					<div class="form-group">
+							<h5 for="inputOriginalPrice">书籍原价</h5>
+							<input type="text" class="form-control" id="inputOriginalPrice" placeholder="请输入书籍原价"/>
+							<label class = "help-block"   id = "labelOriginalPriceError" style = "font-color: white"></label>
+					</div>
+					<div class="form-group">
+							<h5 for="inputCurrentPrice">书籍现价</h5>
+							<input type="text" class="form-control" id="inputCurrentPrice" placeholder="请输入书籍现价">
+							<label class = "help-block"   id = "labelCurrentPriceError" style = "font-color: white"></label>
+					</div>
+					<div class="form-group">
+							<h5 for="inputPublisher">出版社</h5>
+							<input type="text" class="form-control" id="inputPublisher" placeholder="让需要此书的同学更快发现它">
+							<label class = "help-block"   id = "labelPublisherError" style = "font-color: white"></label>
+					</div>
+												</div>
+												<div class="form-group">
+					<h5 for="inputEdition">版本</h5>
+					<input type="text" class="form-control" id="inputEdition" placeholder="请输入书籍版本">
+					<label class = "help-block"   id = "labelEditionError" style = "font-color: white"></label>
+												</div>
+												<div class="form-group">
+					<h5 for="inputAuthor">作者</h5>
+					<input type="text" class="form-control" id="inputAuthor" placeholder="请输入书籍作者">
+					<label class = "help-block"   id = "labelAuthorError" style = "font-color: white"></label>
+												</div>
+												<div class="form-group">
+					<h5 for="inputDescription">使用情况描述</h5>
+					<input type="text" class="form-control" id="inputDescription" placeholder="请对书籍使用情况做简单描述(如:封面干净，内页无明显折痕，有少量文字用荧光笔划过，附赠铅笔笔记。)">
+					<label class = "help-block"   id = "labelDescriptionError" style = "font-color: white"></label>
+												</div>
+												<div class="form-group">
+					<h4>
+							发布完成后，仍可到<a href = account.php>我的个人发布中心</a>查看交易进度或修改交易信息。  <!--这个链接怎么做成新弹出标签页啊……-->
+					</h4>
+												</div>
+												<button type="button" class="btn btn-default" id = "btnPublishBook">我要发布！</button>
+
+								</div>
+						</div>
+
+	</div>
+</div>
+                                </div>
+                        </div>
+                </div>
+	<div class = "footer">
+		<div class = "row">
+				<div class = "col-md-3">
+				</div>
+				<div class = "col-md-8 col-md-offset-3" ><a href = "aboutus.php">©2010-2014 香港大学内地本科生联合会权益保障组 Rights and Interests Committee, HKU CSSAUD  </a>
+				</div>
+		</div>
+	</div>
+</body>
+</html>
+

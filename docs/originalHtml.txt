@@ -1,0 +1,6 @@
+<div class = "row">
+<div class = "col-md-4 col-xs-4"><a id = "aSortLikeNumber">按照点赞数量排序</a></div>
+<div class = "col-md-4 col-xs-4"><a id = "aSortComment">按照评论数量排序</a></div>
+<div class = "col-md-4 col-xs-4"><a id = "aSortOriginal">取消排序</a></div>
+</div>
+<div class = "row"><div class = "col-md-12"><hr></div></div>

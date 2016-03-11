@@ -1,0 +1,299 @@
+Code	Course Title
+BUSI0081A/BUSI1802	Advanced Business Communication Skills
+ACCT4104E/BUSI0003C,D,E	Advanced financial accounting
+BUSI0003A	Advanced Financial Accounting
+BUSI0003B	Advanced Financial Accounting
+BUSI0085A	Advanced Topics in Taxation
+BUSI0004A,B/MKTG3511	Advertising Management
+STRA3709A	Applications of Strategic Thinking in Business
+IIMT3623A	Architectural design studio I
+IIMT3624B	Architectural design studio II
+BUSI0088A/IIMT3688	Artificial intelligence for business app. / A.I. in business
+ACCT3109F/BUSI0006E-J	Auditing
+BUSI0006A-D	Auditing
+STRA4703A	Business in latin america
+BUSI1001E,F/BUSI3801	Business law
+BUSI1001A-D/BUSI3801	Business Law
+BUSI0009I,J	Business policy
+BUSI0009F,G,H	Business policy
+BUSI0009D,E	Business Policy
+BUSI0009A-C/STRA4701A	Business Policy
+STRA3706A,B	China Business Environment
+BUSI0010E,F,G/BUSI3803	Company law
+BUSI0010B-D/BUSI3803	Company Law
+BUSI0010A/BUSI3803	Company Law
+BUSI0050A,B/MKTG3501	Consumer Behaviour
+ACCT3111/BUSI3011A	Corporate governance and social responsibility
+BUSI0095A,B/IIMT3621	Creativity and Business Innovations
+MGMT3404A	Cross-cultural management
+BUSI0075A,B/MGMT3475A,B	Current topics in human resource mgt
+BUSI0073A/IIMT3604	Data Com. and Networking mgt / Telecommunications mgt
+BUSI0052A/IIMT3601	Database development and mgt / Database Mgt
+BUSI3512A/MKTG3512	Developing mkg competence through branding/Brand mgt
+BUSI3001A/BUSI3808A	Global analysis team project	
+STRA4702A	Global corporate strategy
+BUSI0018C-E/ACCT3107	Hong Kong Taxation	
+BUSI0018A,B/ACCT3107	Hong Kong Taxation	
+BUSI0029A/MGMT3429	HRM and business strategy / Strategic HRM	
+BUSI0034B/MGMT3434	Human Resource: Theory and Practice	
+BUSI0034A/MGMT3434	Human Resource: Theory and Practice	
+BUSI0059A/IIMT3602	Information systems analysis and design	
+IIMT3690A	Information systems practicum
+BUSI0061A/IIMT4601	Information systems project management	
+BUSI0020C-H/ACCT3103	Intermediate accounting II /Intermediate Financial Acctg II	
+BUSI0019G,H,I/ACCT2102	Intermediate acctg I / Intermediate financial acctg I	
+BUSI0019A-F/ACCT2102	Intermediate acctg I / Intermediate Financial Acctg I	
+BUSI0020A,B/ACCT3103	Intermediate Acctg II/Intermediate Financial acctg II	
+BUSI0044A,B/STRA3702	International Business	
+BUSI1805A	International field trip
+BUSI0022A,B/MKTG3523	International marketing /Global marketing	
+BUSI1807A	Internship - Business consulting practicum (BCP)
+BUSI1002V/ACCT1101V	Introduction to financial accounting	
+ACCT1101S-U	Introduction to financial accounting
+ACCT1101Q,R	Introduction to financial accounting
+ACCT1101M,N	Introduction to financial accounting
+ACCT1101J-L	Introduction to financial accounting
+ACCT1101G-I	Introduction to financial accounting
+ACCT1101E,F	Introduction to financial accounting
+ACCT1101D	Introduction to financial accounting
+ACCT1101A-C	Introduction to financial accounting
+BUSI1002O/ACCT1101O,P	Introduction to financial accounting (online)	
+BUSI1004L/MKTG2501L	Introduction to Marketing	
+MKTG2501F	Introduction to Marketing
+MKTG2501E	Introduction to Marketing
+MKTG2501D	Introduction to Marketing
+MKTG2501C	Introduction to Marketing
+BUSI1004A,B/MKTG2501A,B	Introduction to Marketing	
+BUSI1003I/IIMT2601I,J	Introduction to MIS / Management information systems	
+BUSI1003F,G/IIMT2601F,G	Introduction to MIS / Management information systems	
+BUSI2003B/MGMT3403	Leadership	
+BUSI2003A/MGMT3403	Leadership	
+BUSI3002A/BUSI3809A 	Leadership development programme	
+BUSI0028G,H,I,J/ACCT3106	Management accounting II / Management Control	
+BUSI0027G,H,I/ACCT2105	Management acctg I / Introduction to Management acctg	
+BUSI0027D,E,F/ACCT2105	Management acctg I / Introduction to Management acctg	
+BUSI0027A-C/ACCT2105	Management Acctg I /Introduction to Management Acctg	
+BUSI0028A-F/ACCT3106	Management Acctg II / Management Control	
+BUSI1003H/IIMT2601H	Management information systems	
+BUSI1003D/IIMT2601C-E	Management Information Systems	
+IIMT2601A,B	Management Information Systems
+MGMT3476A	Managing organizational change
+BUSI1004K/MKTG2501J,K	Marketing / Introduction to Marketing	
+BUSI1004G,I/MKTG2501G,H,I	Marketing / Introduction to Marketing	
+BUSI0066A/MKTG3524	Marketing on the commercial internet / Internet mkg	
+BUSI0031A,B/MKTG3502	Marketing Research	
+BUSI0032A,B/STRA3703	Multinational corporations	
+BUSI2811A	Negotiation and conflict Resolution
+BUSI0023B/IIMT3635	Operations and quality mgt / Operations mgt	
+BUSI0023A/IIMT3635	Operations and quality mgt / Operations mgt	
+BUSI1005A/MGMT3405	Organizational Behavior	
+BUSI0015A/MGMT3415	Principles of Entrepreneurship	
+MGMT2401J,K	Principles of management
+BUSI1007H,I/MGMT2401H,I	Principles of management	
+MGMT2401G	Principles of management
+BUSI1007F/MGMT2401E,F	Principles of Management	
+BUSI1007D/MGMT2401C,D	Principles of Management	
+BUSI1007A/MGMT2401A,B	Principles of Management	
+BUSI0060A/IIMT3603	Project Management	
+BUSI0036A-C	Q.A/IIMT3636 for Business Decisions I/Decision and Risk Analysis I	
+BUSI0036D,E	Q.A./IIMT3636 for business decisions I /Decision and Risk Analysis I	
+BUSI0038A,B/MKTG3525	Services Marketing	
+BUSI2812B	Social venture management internship course
+BUSI2812A	Social Venture Management Internship Course
+BUSI0071A,B/MKTG3531	Strategic marketing management	
+BUSI3601A/IIMT3681	Supply Chain Management
+FINA0304A/FINA2312A	Advanced Corporate Finance	
+FINA0605/FINA3325	Alternative Investments	
+ECON1003/ECON1280	Analysis of Economic Data	
+FINA0603/FINA3381	Behavioral Finance	
+FINA0303/FINA2311	Case Studies in Corporate Finance	
+FINA1003A	Corporate Finance A
+FINA1310A	
+FINA1003B	Corporate Finance B
+FINA1310B	
+FINA1003C	Corporate Finance C
+FINA1310C	
+FINA1003D	Corporate Finance D
+FINA1310D	
+FINA1003E	Corporate Finance E
+FINA1310E	
+FINA1003F	Corporate Finance F
+FINA1310F	
+FINA1003G	Corporate Finance G
+FINA1310G	
+FINA1003H	Corporate Finance H
+FINA1310H	
+FINA1003I	Corporate Finance I
+FINA1310I	
+FINA1003J	Corporate Finance J
+FINA1310J	
+FINA1003K	Corporate Finance K
+FINA1310K	
+CCGL9018	Corporate Social Responsibility
+FINA0301A/FINA2322A	Derivatives A
+FINA0301B/FINA2322B	Derivatives B
+FINA0301C/FINA2322C	Derivatives C
+FINA0301D/FINA1310D	Derivatives D
+FINA0301E/FINA2322E	Derivatives E
+FINA0301F/FINA2322F	Derivatives F
+FINA0301G/FINA2322G	Derivatives G
+FINA0301H/FINA2322H	Derivatives H
+ECON3802/ECON4294	Dissertation
+ECON0601A	Economic Development of China A
+ECON2264A	
+CCGL9019	Economic Globalization: Issues and Challenges
+ECON0605	Economic History of China
+ECON2273	
+ECON0603	Economic System of Hong Kong
+ECON2255	
+ECON0103	Economics of Human Resources
+ECON2232	
+ECON0607	Economics of Population Changes
+ECON2225	
+FINA0403	Financial Engineering
+FINA4354	
+FINA0102A	Financial Markets & Institutions A
+FINA2330A	
+FINA0102B	Financial Markets & Institutions B
+FINA2330B	
+FINA0604	Financial Practicum
+FINA3360	
+FINA0804/FINA3323	Fixed Income Securities
+ECON0602/ECON2249	Foreign Trade & Investment in China
+ECON0106	Games & Decision
+ECON2214	
+ECON0107	History of Economic Thought
+ECON2272	
+CCCH9028	Hong Kong and China's Economic Development
+ECON0402	Industrial Organization
+ECON2216	
+FINA0106A	Insurance: Theory & Practice A
+FINA2342A	
+FINA0106B	Insurance: Theory & Practice B
+FINA2342B	
+FINA0405	Interest Rate Models
+FINA3324	
+ECON2102A	Intermediate Macroeconomics A
+ECON2220A	
+ECON2102B	Intermediate Macroeconomics B
+ECON2220B	
+ECON2102C	Intermediate Macroeconomics C
+ECON2220C	
+ECON2102D	Intermediate Macroeconomics D
+ECON2220D	
+ECON2102E	Intermediate Macroeconomics E
+ECON2220E	
+ECON2102F	Intermediate Macroeconomics F
+ECON2220F	
+ECON2101A	Intermediate Microeconomics A
+ECON2210A	
+ECON2101B	Intermediate Microeconomics B
+ECON2210B	
+ECON2101C	Intermediate Microeconomics C
+ECON2210C	
+ECON2101D	Intermediate Microeconomics D
+ECON2210D	
+ECON2101E	Intermediate Microeconomics E
+ECON2210E	
+ECON2101F	Intermediate Microeconomics F
+ECON2210F	
+FINA0105A	International Financial Management A
+FINA2383A	
+FINA0105B	International Financial Management B
+FINA2383B	
+ECON0302	International Macroeconomics
+ECON2253	
+ECON0701A	Introductory Econometrics A
+ECON2280A	
+ECON0701B	Introductory Econometrics B
+ECON2280B	
+ECON0701C	Introductory Econometrics C
+ECON2280C	
+ECON0701D	Introductory Econometrics D
+ECON2280D	
+ECON0701E	Introductory Econometrics E
+ECON2280E	
+ECON0701F	Introductory Econometrics F
+ECON2280F	
+ECON0701G	Introductory Econometrics G
+ECON2280G	
+ECON1002G	Introductory Macroeconomics
+ECON1220G	
+ECON1002F	Introductory Macroeconomics
+ECON1220F	
+ECON1002E	Introductory Macroeconomics
+ECON1220E	
+ECON1002D	Introductory Macroeconomics
+ECON1220D	
+ECON1002C	Introductory Macroeconomics
+ECON1220C	
+ECON1002B	Introductory Macroeconomics
+ECON1220B	
+ECON1002A	Introductory Macroeconomics
+ECON1220A	
+ECON1210G	Introductory Microeconomics
+ECON1001C	Introductory Microeconomics
+ECON1210F	
+ECON1210E	Introductory Microeconomics
+ECON1210D	Introductory Microeconomics
+ECON1210C	Introductory Microeconomics
+ECON1001B	Introductory Microeconomics
+ECON1210B	
+ECON1001A	Introductory Microeconomics
+ECON1210A	
+ECON1001D	Introductory Microeconomics (summer)
+ECON1210H	
+FINA2802C/FINA2320C	Investment and Portfolio Analysis C
+FINA2802G/FINA2320G	Investment and Portfolio Analysis G
+FINA2802I/FINA2320I	Investment and Portfolio Analysis I
+FINA2802J/FINA2320J	Investment and Portfolio Analysis J
+FINA2802K/FINA2320K	Investment and Portfolio Analysis K
+FINA2802A/FINA2320A	Investments and Portfolio Analysis A
+FINA2802B/FINA2320B	Investments and Portfolio Analysis B
+FINA2802D/FINA2320D	Investments and Portfolio Analysis D
+FINA2802E/FINA2320E	Investments and Portfolio Analysis E
+FINA2802F/FINA2320F	Investments and Portfolio Analysis F
+FINA2802H/FINA2320H	Investments and Portfolio Analysis H
+FINA2802L/FINA2320L	Investments and Portfolio Analysis L
+FINA0104A	Management of Commerical Bank A
+FINA2331A	
+ECON0703	Mathematical Economics
+ECON2285	
+FINA0402	Mathematical Finance
+FINA3350	
+ECON0702	Mathematical Methods in Economics
+ECON2284	
+ECON0207	Monetary Economics
+ECON2222	
+FINA3334	Private Banking and Wealth Management
+ECON0104	Public Finance
+ECON2223	
+FINA0601	Quantitative Risk Management
+FINA4341	
+ECON3801/ECON3293	Reading Course
+FINA0805	Real Estate Finance
+FINA2382	
+FINA0602	Regulatory and Operational Issues in Finance
+FINA3353	
+FINA3806/FINA3340	Risk Management
+ECON3803B	Senior Seminar in Economics and Finance (Capstone Course)
+ECON4200B	
+ECON3803A	Senior Seminar in Economics and Finance (Capstone Course)
+ECON4200A	
+FINA0404	Spreadsheet Financial Modeling
+FINA3351	
+ECON0406	State, Law and the Economy
+ECON2276	
+CCGL9025	The Political Economy Growth and Poverty in the World
+ECON0301	Theory of International Trade
+ECON2252	
+ECON0109	Topics in Macroeconomics
+ECON3229	
+ECON2257	Trade, Investment and Development in APEC Economies
+ECON0504	Transportation Economics
+ECON2234	
+ECON0706	Uncertainty and Information
+ECON3215	
+CCGL9030	Understanding the Financial Crisis
+ECON0503	Urban Economics
+ECON2266	

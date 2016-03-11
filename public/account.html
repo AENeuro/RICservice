@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+        <head>
+                <title>RIC杂货铺</title>
+                <link rel = "shortcut icon" type = "image/ico" href = "assets/img/RIC.png"/>
+
+                <meta name = "viewport" content = "width = device-width, initial-scale=1"/>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <link rel = "stylesheet" href = "assets/css/body.css">
+                <script src="./assets/dist/js/jquery-2.1.3.min.js"></script>
+        </head>
+        <body>
+                <nav class = "navbar navbar-default navbar-fixed-top" style = "opacity: 0.9" role = "navigation" id = "navTop">
+                </nav>
+                <div class="modal fade" id="myModalSign"   tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                </div>
+                <script>
+                        var width = screen.width;
+                        if (width > 800)
+                                document.write("<div class = 'band-pc'>");
+                        else
+                                document.write("<div class = 'band'>");
+                </script>
+                        <div class = "container-fluid">
+                                <div class = "row" style = "text-align: center">
+	<h1 style = "margin-top: 70px; color: #ffffff; text-align: center;">我的个人发布中心</h1>
+                                </div>
+                                <div class = "row">
+	<!--左侧链接列表-->
+	<div class = "col-md-3 col-xs-12" style = "background-color: white; margin: 10px;">
+	        <ul id = "ulAccount" class="nav nav-pills nav-stacked" role = "tablist">
+	        </ul>
+	</div>
+	<!--右侧面板-->
+	<div id = "divForA" class = "col-md-8 col-xs-12" style = "margin: 10px;">
+	</div>
+                                </div>
+                        </div>
+                </div>
+        </body>
+                <script style = "text/javascript" src = "./assets/js/modal.js"></script>
+                <script style = "text/javascript" src = "./assets/js/htmlAccount.js"></script>
+                <script style = "text/javascript" src = "./assets/js/account.js"></script>
+                <script style = "text/javascript" src = "./assets/js/betaComment.js"></script>
+</html>
+

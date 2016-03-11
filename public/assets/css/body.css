@@ -1,0 +1,30 @@
+body,h1,h2,h3,h4,h5{
+        font-family:"Microsoft YaHei", Helvetica, Arial, sans-serif;
+}
+p,span,label{
+        font-family:"YouYuan", "Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+        font-size: 17px;
+}
+
+new-tit{
+	font-family:"YouYuan";
+	font-size: 19px;
+}
+
+.band{
+        background: url(../img/index/band.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+}
+
+.band-pc{
+        background: url(../img/index/band.jpg) center no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+}
+
+.alert-info{
+        background-color:#BAD3FF;
+}
+

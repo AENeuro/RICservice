@@ -1,0 +1,16 @@
+academic_detail.php?content=1
+Professor IRWIN, Michael G.
+academic_detail.php?content=3
+Dr. CHEUNG, Chi-wai
+academic_detail.php?content=4
+WONG, Tin-chun Gordon
+N/A
+WONG, Sau-ching Stanley
+N/A
+JENKINS, Caroline
+N/A
+LAM, Shuk-wan
+N/A
+DAS, Rapti
+N/A
+HE, Kai

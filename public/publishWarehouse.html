@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+        <head>
+                <title>RIC杂货铺</title>
+                <link rel = "shortcut icon" type = "image/ico" href = "assets/img/RIC.png"/>
+                <meta name = "viewport" content = "width = device-width, initial-scale=1"/>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <link rel = "stylesheet" href = "assets/css/body.css">
+                <script src="./assets/dist/js/jquery-2.1.3.min.js"></script>
+        </head>
+        <body>
+                <nav class = "navbar navbar-default navbar-fixed-top" style = "opacity: 0.7" id = "navTop">
+                </nav>
+                <div class="modal fade" id="myModalSign"   tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                </div>
+                <script>
+                        var width = screen.width;
+                        if (width > 800)
+                                document.write("<div class = 'band-pc'>");
+                        else
+                                document.write("<div class = 'band'>");
+                </script>
+                        <div class = "container-fluid">
+                                <h1 style = "margin-top: 80px; color: #ffffff; text-align: center">发布新的储物信息</h1>
+                                <div class="panel panel-default" id = "divPost" style = "margin-top: 10	px"> 
+	<!--<div class="panel-heading">
+	        <h3 class="panel-title">发布新的储物信息</h3> //修改：删掉这个小标题，避免重复
+	</div>-->
+	<div class="panel-body">
+	        <form class="form-horizontal">
+	                <div class="form-group">
+	                        <label class="col-sm-3 control-label" style = "font-size: 14px">计划参与人数</label>
+	                        <div class="col-sm-5">
+	                                <input id = "inputQuota" type="text" class="form-control" id="inputQuota" placeholder="请填写数字">
+	                        </div>
+	                </div>
+	                <div class = "row">
+	                	<label id = "labelQuotaError" for="text" class="col-md-8 control-label" style = "color: red; display:none">请输入现有quota</label>
+	                </div>
+	                <div class="form-group">
+	                        <label class="col-sm-3 control-label" style = "font-size: 14px">开始日期</label>
+	                        <div class="col-sm-5">
+	                                <input id = "inputTimeStart" type="text" class="form-control" readonly = "readonly">
+	                        </div>
+	                </div>
+	                <div class = "row">
+	                	<label id = "labelTimeStartError" for="text" class="col-md-8 control-label" style = "color: red; display:none">请提供开始时间(可从日历中选择或键盘输入)</label>
+	                </div>
+	                <div class="form-group">
+	                        <label class="col-sm-3 control-label" style = "font-size: 14px">结束日期</label>
+	                        <div class="col-sm-5">
+	                                <input id = "inputTimeEnd" type="text" class="form-control" readonly = "readonly">
+	                        </div>
+	                </div>
+	                <div class = "row">
+	                	<label id = "labelTimeEndError" for="text" class="col-md-8 control-label" style = "color: red; display:none">请提供结束时间(可从日历中选择或键盘输入)</label>
+	                </div>
+	                <div class = "row">
+	                	<label id = "labelTimeError" for="text" class="col-md-8 control-label" style = "color: red; display:none">结束日期应晚于开始日期</label>
+	                </div>
+	                <div class="form-group">
+	                        <label class="col-sm-3 control-label" style = "font-size: 14px">地点类型</label>
+	                        <div class="col-sm-5">
+	                                <select id = "selectType" class="form-control" id="selectType" >
+										<option value = "none">储物地点类型</option>
+										<option value = "第三方储物仓库">第三方储物仓库</option>
+										<option value = "自己租的房子">自己租的房子</option>								
+										<option value = "Summer Hall">Summer Hall</option>
+										<option value = "Summer Storage Room">Summer Storage Room</option>
+	                                </select>
+	                        </div>
+	                </div>
+	                <div class = "row">
+	                	<label id = "labelTypeError" for="text" class="col-md-8 control-label" style = "color: red; display:none">请选择储物类型</label>
+	                </div>
+	                <div class="form-group">
+	                        <label class="col-sm-3 control-label" style = "font-size: 14px">储物地点</label>
+	                        <div class="col-sm-5">
+	                                <input id = "inputPlace" type="text" class="form-control" placeholder="例: 西营盘/坚尼地城/一村Starr Hall">
+	                        </div>
+	                </div>
+	                <div class = "row">
+	                	<label id = "labelAddrError" for="text" class="col-md-8 control-label" style = "color: red; display:none">请提供储物地点</label>
+	                </div>
+	                <div class="form-group">
+	                        <label class="col-sm-3 control-label" style = "font-size: 14px">运输方式</label>
+	                        <div class="col-sm-5">
+	                                <input id = "inputMethodDelivering" type="text" class="form-control" placeholder="例：统一配送/自提">
+	                        </div>
+	                </div>
+	                <div class = "row">
+	                	<label id = "labelDeliverError" for="text" class="col-md-8 control-label" style = "color: red; display:none">请说明运送方式</label>
+	                </div>
+	                <div class="form-group">
+	                        <label class="col-sm-3 control-label" style = "font-size: 14px">价格</label>
+	                        <div class="col-sm-5">
+	                                <input id = "inputPrice" type="text" class="form-control" placeholder="例：一个RIC单位50港币">
+	                        </div>
+	                </div>
+	                <div class = "row">
+	                	<label id = "labelPriceError" for="text" class="col-md-8 control-label" style = "color: red; display:none">请提供储物价格</label>
+	                </div>
+	                <div class="form-group">
+	                        <label class="col-sm-3 control-label" style = "font-size: 14px">备注</label>
+	                        <div class="col-sm-5">
+	                                <textarea id = "textareaExtra" class="form-control" rows="5" placeholder="还有什么需要提醒小伙伴注意的？"></textarea> 
+	                        </div>
+	                </div>
+	                <div class = "form-group" >
+	                	<div class="col-sm-offset-3 col-sm-5">
+	                	<input type="checkbox" id="inputAgreeSharing" checked = "checked" value="agreed">我同意RIC在微信公众号中分享这条租房信息</input></div>
+	                </div>
+	        <!--<div class = "form-group">-->
+	        </form>
+	        <div class = "form-group">
+	                <div class = "col-sm-offset-3 col-sm-5">
+	                        <div class = "col-sm-offset-9 col-sm-5">
+	                        	<button id = "btnPublishWarehouse" type="button" class="btn btn-primary">发布！</button>
+	                        </div>
+	                </div>
+	        </div>      
+	</div>
+                                </div>
+                        </div>
+                </div>
+        </body>
+                <script style = "text/javascript" src = "./assets/js/modal.js"></script>
+                <!-- timePicker -->
+                <link rel="stylesheet" type="text/css" href="./assets/css/timePicker/jquery.timepicker.css" />
+                <link rel="stylesheet" type="text/css" href="./assets/css/timePicker/bootstrap-datepicker.css" />
+                <script type="text/javascript" src="./assets/js/timePicker/jquery.timepicker.js"></script>
+                <script type="text/javascript" src="./assets/js/timePicker/bootstrap-datepicker.js"></script>
+                <!-- timePicker -->
+                <script style = "text/javascript" src = "./assets/js/warehouse.js"></script>
+                <script style = "text/javascript" src = "./assets/js/publishWarehouse.js"></script>
+                <script style = "text/javascript" src = "./assets/js/betaComment.js"></script>
+</html>
+

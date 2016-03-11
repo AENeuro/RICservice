@@ -1,0 +1,88 @@
+http://www.cs.hku.hk/people/profile.jsp?teacher=wenping
+Professor W. Wang
+http://www.cs.hku.hk/people/profile.jsp?teacher=chin
+Professor F.Y.L. Chin
+http://www.cs.hku.hk/people/profile.jsp?teacher=rtchin
+Professor R.T. Chin
+http://www.cs.hku.hk/people/profile.jsp?teacher=dcheung
+Professor D.W.L. Cheung
+http://www.cs.hku.hk/people/profile.jsp?teacher=kao
+ Professor B.C.M. Kao
+http://www.cs.hku.hk/people/profile.jsp?teacher=twlam
+Professor T.W. Lam
+http://www.cs.hku.hk/people/profile.jsp?teacher=fcmlau
+Professor F.C.M. Lau
+http://www.cs.hku.hk/people/profile.jsp?teacher=nikos
+Professor N. Mamoulis
+http://www.cs.hku.hk/people/profile.jsp?teacher=clwang
+Professor C.L. Wang
+http://www.cs.hku.hk/people/profile.jsp?teacher=yzyu
+Professor Y.Z. Yu
+http://www.cs.hku.hk/people/profile.jsp?teacher=kpchan
+Dr. K.P. Chan
+http://www.cs.hku.hk/people/profile.jsp?teacher=ckcheng
+Dr. R.C.K. Cheng
+http://www.cs.hku.hk/people/profile.jsp?teacher=chow
+Dr. K.P. Chow
+http://www.cs.hku.hk/people/profile.jsp?teacher=hui
+Dr. L.C.K. Hui
+http://www.cs.hku.hk/people/profile.jsp?teacher=pun
+Dr. K.H. Pun
+http://www.cs.hku.hk/people/profile.jsp?teacher=hfting
+Dr. H.F. Ting
+http://www.cs.hku.hk/people/profile.jsp?teacher=lywei
+ Dr. L.Y. Wei
+http://www.cs.hku.hk/people/profile.jsp?teacher=kykwong
+ Dr. K.K.Y. Wong
+http://www.cs.hku.hk/people/profile.jsp?teacher=cwu
+Dr. C. Wu
+http://www.cs.hku.hk/people/profile.jsp?teacher=smyiu
+Dr. S.M. Yiu
+http://www.cs.hku.hk/people/profile.jsp?teacher=hubert
+Dr. H.T.H. Chan
+http://www.cs.hku.hk/people/profile.jsp?teacher=heming
+Dr. H. Cui
+http://www.cs.hku.hk/people/profile.jsp?teacher=zhiyi
+Dr. Z. Huang
+http://www.cs.hku.hk/people/profile.jsp?teacher=bruno
+Dr. B. Oliveira
+http://www.cs.hku.hk/people/profile.jsp?teacher=jmwang
+Dr. J.M. Wang
+http://www.cs.hku.hk/people/profile.jsp?teacher=ykchoi
+Dr. Y.K. Choi
+http://www.cs.hku.hk/people/profile.jsp?teacher=cmleung
+Dr. C.M. Leung
+http://www.cs.hku.hk/people/profile.jsp?teacher=jpan
+Dr. J. Pan
+http://www.cs.hku.hk/people/profile.jsp?teacher=chong
+Dr. C.F. Chong
+http://www.cs.hku.hk/people/profile.jsp?teacher=ckchui
+Dr. C.K. Chui
+http://www.cs.hku.hk/people/profile.jsp?teacher=atctam
+Dr. A.T.C. Tam
+http://www.cs.hku.hk/people/profile.jsp?teacher=twchim
+Dr. T.W. Chim
+http://www.cs.hku.hk/people/profile.jsp?teacher=hychung
+Dr. H.Y. Chung
+http://www.cs.hku.hk/people/profile.jsp?teacher=georgem
+Mr. G. Mitcheson
+http://www.cs.hku.hk/people/profile.jsp?teacher=sdirk
+Dr. D. Schnieders
+N/A
+Professor S. Li, Honorary Professor
+http://www.cs.hku.hk/people/profile.jsp?teacher=tse
+Professor T.H. Tse, Honorary Professor
+http://i.cs.hku.hk/~amywang/
+Professor Amy Wang, Honorary Professor
+N/A
+Professor J. Wang, Honorary Professor
+N/A
+Professor H. Yang, Honorary Professor
+N/A
+Dr. B.L. Lim, Honorary Associate Professor
+N/A
+Dr. S. Xu, Honorary Assistant Professor
+N/A
+Mr. X Xu, Honorary Assistant Professor  
+N/A
+Dr. C.L. Yip, Honorary Lecturer
